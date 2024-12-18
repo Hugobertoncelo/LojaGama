@@ -14,10 +14,9 @@ header {
 header img {
     max-width: 330px;
     height: auto;
-    width: 80rem;
     border-radius: 70px;
-    max-width: 100%;
-    margin: auto;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Centraliza verticalmente */
 }
 
 h1 {
