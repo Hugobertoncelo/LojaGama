@@ -1,105 +1,105 @@
 body {
-    font-family: sans-serif;
-    margin: 8px;
-    padding: 0;
-    background-color: #f8f0e3; 
-    color: #333;
+  font-family: sans-serif;
+  margin: 8px;
+  padding: 0;
+  background-color: #f8f0e3;
+  color: #333;
 }
 
 header {
-    background-color: #d4af70; 
-    padding: 5px;
+  background-color: #d4af70;
+  padding: 5px;
 }
 
 header img {
-    max-width: 330px;
-    height: auto;
-    border-radius: 70px;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    display: block; /* Centraliza verticalmente */
+  max-width: 330px;
+  height: auto;
+  border-radius: 70px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: block; /* Centraliza verticalmente */
 }
 
 h1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 main {
-    padding: 20px;
-    min-height: 70vh;
+  padding: 20px;
+  min-height: 70vh;
 }
 
 .produtos {
-    text-align: center;
+  text-align: center;
 }
 
 .lista-produtos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .produto {
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: center;
-    width: 300px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: white;
-    transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .produto:hover {
-    transform: scale(1.03);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 .produto img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    transition: transform 0.3s;
-    cursor: pointer; 
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .produto img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .produto h3 {
-    margin-bottom: 5px;
-    color: #55390a;
+  margin-bottom: 5px;
+  color: #55390a;
 }
 
 .produto p {
-    margin: 5px 0;
-    font-size: 14px;
+  margin: 5px 0;
+  font-size: 14px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 button {
-    color:white;
-    background-color: #c13584;
-    border-radius: 20px;
-    border: 0;
+  color: white;
+  background-color: #c13584;
+  border-radius: 20px;
+  border: 0;
 }
 
 span {
-    color: #d4af70;
+  color: #d4af70;
 }
